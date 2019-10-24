@@ -7,7 +7,6 @@
 * [About us](#about-us)
 
 
-
 ## About the project
 
 <!--![Screenshot Image](images/screenshotFormsProject.JPG)-->
