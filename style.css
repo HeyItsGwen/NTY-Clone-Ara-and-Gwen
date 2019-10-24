@@ -142,8 +142,8 @@ main {
 }
 
 #date{
-  position: absolute;
-  left: 339px;
+  position: relative;
+  left: -150px;
 }
 
 
