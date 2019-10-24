@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: auto;
   font-family: 'Times New Roman', Times, serif
@@ -68,6 +72,19 @@ nav {
   margin-top: -10px;
   margin-right: 15px;
   color: #333333;
+}
+
+/* HEADER */
+header div {
+  width: 100%;
+}
+
+header div h1 {
+  width: 600px;
+}
+#titleText {
+  width: 383px;
+  font-style: italic;
 }
 
 /* BODY */
