@@ -102,9 +102,35 @@ main {
   margin: auto;
 }
 
-#guthFigure{
+#guthFigure {
   width: 1134px;
   margin: auto;
 }
+
+#guthFigure figcaption {
+  width: 70%;
+  color: #666;
+  margin-top: 10px;
+}
+
+#rickF {
+  color: #888;
+  font-size: .9em;
+}
+
+#articleInfo{
+  margin-top: 50px;
+}
+
+#author, .article, #dateIconList {
+  width: 600px;
+  margin: auto;
+}
+
+#dateIconList{
+  list-style-type: none;
+  display: flex;
+}
+/* ARTICLE */
 
 /* FOOTER */
