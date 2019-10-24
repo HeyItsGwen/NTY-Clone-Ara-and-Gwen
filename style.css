@@ -16,6 +16,7 @@ nav {
   background-color: white;
   z-index: 5;
   border-bottom: 1px solid #e2e2e2;
+  font-family: sans-serif;
 }
 
 .navLi {
@@ -24,6 +25,7 @@ nav {
 
 .navLi a {
   color: black;
+  font-weight: bold;
 }
 
 #navGenre a {
@@ -81,6 +83,9 @@ header div {
 
 header div h1 {
   width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+  font-weight: 900;
 }
 #titleText {
   width: 383px;
@@ -90,7 +95,16 @@ header div h1 {
 /* BODY */
 main {
   position: relative;
-  top: 42px;
+  top: 85px;
+}
+
+#alanGuth {
+  margin: auto;
+}
+
+#guthFigure{
+  width: 1134px;
+  margin: auto;
 }
 
 /* FOOTER */
