@@ -122,15 +122,24 @@ main {
   margin-top: 50px;
 }
 
-#author, .article, #dateIconList {
+#author, .article, #dateIcons {
   width: 600px;
   margin: auto;
 }
 
-#dateIconList{
-  list-style-type: none;
+#dateIcons {
   display: flex;
+  padding-left: 0;
 }
+
+#topIconList {
+  display: flex;
+  list-style-type: none;
+}
+
+
+
+
 /* ARTICLE */
 
 /* FOOTER */
