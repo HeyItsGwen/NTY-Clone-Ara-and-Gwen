@@ -130,12 +130,23 @@ main {
 #dateIcons {
   display: flex;
   padding-left: 0;
+  justify-content: flex-end;
 }
 
 #topIconList {
   display: flex;
   list-style-type: none;
+  padding-left: 0;
+  width: 242px;
+  justify-content: space-between;
 }
+
+#date{
+  position: absolute;
+  left: 339px;
+}
+
+
 
 
 
