@@ -34,9 +34,16 @@ nav {
   font-weight: bold;
 }
 
-
 .bottomInfo a {
   font-weight: 700;
+}
+
+/* SMALL PRINT AFTER ARTICLE */
+.bottomInfo p,
+.bottomInfo a {
+  font-size: 0.7rem;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #navGenre a {
@@ -159,7 +166,8 @@ main {
   justify-content: flex-end;
 }
 
-#topIconList, #bottomIconList {
+#topIconList,
+#bottomIconList {
   display: flex;
   list-style-type: none;
   padding-left: 0;
@@ -292,16 +300,6 @@ main {
 .afterInflation {
   position: relative;
   top: 300px;
-}
-
-/* YOUTUBE IFRAME CAPTION AND VIDEO */
-
-/* SMALL PRINT AFTER ARTICLE */
-.bottomInfo p,
-.bottomInfo a {
-  font-size: 0.7rem;
-  color: #666;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* READ COMMENTS SECTION */
