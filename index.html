@@ -26,6 +26,7 @@
   </nav>
 
   <main>
+    <!-- HEADER IMAGE ALAN GUTH INTRO SECTION -->
     <header>
       <div><h1><div id="titleText">Space Ripples Reveal Big Bang’s Smoking Gun</div></h1></div>
         <banner>
@@ -41,7 +42,8 @@
           </figure>     
         </banner>
 
-        <div id='articleInfo'> <!--(article info)-->
+        <!--The ARTICLE STARTS HERE -->
+        <div id='articleInfo'> 
           <div id='author'>by Dennis Overby</div>
           <div id="dateIcons">
             <p id="date">March 17, 2014</p>
@@ -59,7 +61,7 @@
     </header>
 
     <article>
-
+      <!-- BEGINING OF ARTICLE -->
       <section class='article'>
         <p>CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new son and a year’s appointment at Stanford, stayed up late with his notebook and equations, venturing far beyond the world of known physics.</p>
         <p>He was trying to understand why there was no trace of some exotic particles that should have been created in the Big Bang. Instead he discovered what might have made the universe bang to begin with. A potential hitch in the presumed course of cosmic evolution could have infused space itself with a special energy that exerted a repulsive force, causing the universe to swell faster than the speed of light for a prodigiously violent instant.</p>
@@ -79,12 +81,30 @@
       </section>
 
       <section class='article'>
-        <h2>The Theory of Inflation</h2>
-        <!--IMAGE-->
-        <figure id="theoryOfInflation">
-          <figcaption>Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</figcaption>
-          <img src="images/theoryOfInflationLarge.png" alt="The Theory of Inflation The New York Times">
-        </figure>
+        <header class="tOInflation" id="inflationHeader">
+          <h2>The Theory of Inflation</h2>
+          <p>Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</p>
+        </header>
+        
+        <!-- THE THEORY OF INFLATION IMAGE-->
+        <div>
+          <img src="images/theoryOfInflationLarge.png" id="theoryOfInflation" alt="The Theory of Inflation The New York Times">
+          <div class="imgText" id="img1"><p><span>THE UNIVERSE</span>is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.</p></div>
+          <div class="imgText" id="img2"><p><span>NOT ENOUGH TIME</span>The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, and there has not been enough time for scattered patches of hot and cold to mix into an even temperature.</p></div>
+          <div class="imgText" id="img3"><p><span>DISTANT COFFEE</span>At a smaller scale, imagine using a telescope to look a mile in one direction. You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled.</p></div>
+          <div class="imgText" id="img4"><p><span>COFFEE EVERYWHERE</span>Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in every direction, you might want to look for another explanation.</p></div>
+          <div class="imgText" id="img5"><p><span>STILL NOT ENOUGH TIME</span>There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature.</p></div>
+          <div class="imgText" id="img6"><p><span>INFLATION</span>solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.</p></div>
+          <div class="imgText" id="img7"><p><span>FLUCTUATION</span>Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. These are gravitational waves predicted by Einstein.</p></div>
+          <div class="imgText" id="img8"><p><span>EXPANSION</span>Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot.</p></div>
+        </div>
+
+        <section class="tOInflation" id="inflationFooter">
+          <div id="inflationAuthors">
+            <p>By LARRY BUCHANAN and JONATHAN CORUM</p>
+          </div>
+        </section>
+
 
         <p>Dr. Kovac said the chance that the results were a fluke was only one in 10 million.</p>
         <p>Dr. Guth, now 67, pronounced himself “bowled over,” saying he had not expected such a definite confirmation in his lifetime.</p>
@@ -96,7 +116,7 @@
       </section>
 
       <section class='article'>
-
+        <!-- YOUTUBE VIDEO INSERT -->
         <figure id='youtubeFigure'>
             <iframe id='stanfordVideo' width="600" height="340" src="https://www.youtube.com/embed/ZlfIVEy_YOA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <figcaption>Stanford Professor Andrei Linde celebrates physics breakthrough</figcaption>
@@ -114,14 +134,15 @@
         <p>“So we will need to wait and see before we jump up and down,” Dr. Krauss said.</p>
         <p>Corroboration might not be long in coming. The Planck spacecraft will report its own findings this year. At least a dozen other teams are trying similar measurements from balloons, mountaintops and space.</p>
 
-        <strong>SPIRALS IN THE SKY</strong>
+        <strong>Spirals in The Sky</strong>
 
         <p>Gravity waves are the latest and deepest secret yet pried out of the cosmic microwaves, which were discovered accidentally by Arno Penzias and Robert Wilson at Bell Labs 50 years ago. They won the Nobel Prize.</p>
         <p>Dr. Kovac has spent his career trying to read the secrets of these waves. He is one of four leaders of Bicep, which has operated a series of increasingly sensitive radio telescopes at the South Pole, where the thin, dry air creates ideal observing conditions. The others are Clement Pryke of the University of Minnesota, Jamie Bock of the California Institute of Technology and Dr. Kuo of Stanford.</p>
         <p>“The South Pole is the closest you can get to space and still be on the ground,” Dr. Kovac said. He has been there 23 times, he said, wintering over in 1994. “I’ve been hooked ever since,” he said.</p>
 
-        <figure>
+        <figure class="article">
           <!--BICEP2 TELESCOPE IMAGE-->
+          <img src="images/bicep2Telescope.png" alt="The Bicep 2 Telescope The New York Times">
           <figcaption>
               The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.
           </figcaption>
@@ -151,38 +172,65 @@
         <p>So the future of the cosmos is perhaps bright and fecund, but do not bother asking about going any deeper into the past.</p>
         <p>We might never know what happened before inflation, at the very beginning, because inflation erases everything that came before it. All the chaos and randomness of the primordial moment are swept away, forever out of our view.</p>
         <p>“If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”</p>
-                
-
       </section>
 
+      <!-- END OF ARTICLE SM ICONS READ COMMENTS ICON-->
       <div>
         <div class='article bottomInfo'>
           <p>
-              A version of this article appears in print on March 18, 2014, Section A, Page 1 of the National edition. Order Reprints | Today’s Paper | Subscribe
+              A version of this article appears in print on March 18, 2014, Section A, Page 1 of the National edition. Order Reprints | <a href="#">Today’s Paper</a> | <a href="#">Subscribe</a>
           </p>
         </div>
-        <div>
-          <!--READ COMMENTS BUTTON
-          FB icon, Twitter icon, email icon, share icon-->
-        </div>
+        <div class="article" id="commentsIcons">
+            <button>READ 615 COMMENTS</button>
+            <ul id="bottomIconList">  
+              <li><img src="images/fb24.png" class="bottomIcons" alt="Facebook Icon The New York Times"></li>
+              <li><img src="images/twitter24.png" class="bottomIcons" alt="Twitter Icon The New York Times"></li>
+              <li><img src="images/mail24.png" class="bottomIcons" alt="Mail Icon The New York Times"></li>
+              <li><img src="images/share24.png" class="bottomIcons" alt="Share Icon The New York Times"></li>
+              <li><img src="images/bookmarkOutline24.png" class="bottomIcons" alt="Bookmark Outline Icon The New York Times"></li>
+              <li><img src="images/commentOutline24.png" class="bottomIcons" alt="Comments Outline Icon The New York Times"></li>
+            </ul>
+          </div>
       </div>
     </article>
-  </main>
 
+    <!-- READ MORE ASIDE SECTION -->
   <div id='readMore'>
     <h4>Read more from Science</h4>
     <ul>
-      <li id="item1"><img>
-        <p id="summary"></p><span id="author"></span>
-        <p id="time"></p>
+      <li id="item1">
+        <figure>
+          <img src="images/coloradoFossils.png" alt="Colorado Fossils New York Times">
+          <figcaption>HHMI Tangled Bank Studios</figcaption>
+        </figure>
 
-      <li id="item2"><img>
-        <p id="summary"></p><span id="author"></span>
-        <p id="time"></p>
+        <h2>Colorado Fossils Show How Mammals Raced to Fill Dinosaur's Void</h2>
+        <p id="summary">An unusually rich trove found in Colorado reveals the world in which our mammalian forebears evolved into larger creatures.</p>
+        <span id="author">Nicholas St. Fleur</span>
+        <p id="time">Oct.24</p>
 
-      <li id="item3"><img>
-        <p id="summary"></p><span id="author"></span>
-        <p id="time"></p>
+      <li id="item2">
+        <figure>
+            <img src="images/liveWithFire.png" alt="Learn to Live with Fire New York Times">
+            <figcaption>Josh Edelson/Agence France-Presse-Getty Images</figcaption>
+        </figure>
+
+        <h2>A Forecast for a Warming World: Learn to Live With Fire</h2>
+        <p id="summary">The Kincade fires is burning more than 10,000 acres in California. Other areas of the country are experiencing drought so understanding fire is becoming ever more important.</p>
+        <span id="author">Thomas Fuller and Kendra Pierre-Louis</span>
+        <p id="time">Oct.24</p>
+
+      <li id="item3">
+        <figure>
+          <img src="images/antZombies.png" alt="Zombie Ants New York Times">
+          <figcaption>João Araújo</figcaption>
+        </figure>
+
+        <h2>After This Fungus Turns Ants Into Zombies, Their Bodies Explode</h2>
+        <p id="summary">The life cycle of Ophiocordyceps is like something from a sci-fi movie: "You think, where the hell did that come from?"</p>
+        <span id="author">Carl Zimmer</span>
+        <p id="time">Oct.24</p>
     </ul>
 
     <div>
@@ -191,7 +239,10 @@
       <h5>Already have an acount? <a href="#">Log in</a></h5>
     </div>
   </div>
+</main>
 
+<!-- FOOTER SECTION WITH LOGO AND BOTTOM NAV MENU -->
+<footer>
   <section id="bottomNav">
     <header>
       <!--logo
@@ -202,21 +253,48 @@
       <section>
         <h3>NEWS</h3>
         <ul>
-            <li></li>
+            <li>Home Page</li>
+            <li>World</li>
+            <li>U.S.</li>
+            <li>Politics</li>
+            <li>Election 2020</li>
+            <li>New York</li>
+            <li>Business</li>
+            <li>Tech</li>
+            <li>Science</li>
+            <li>Sports</li>
+            <li>Obituaries</li>
+            <li>Today's Paper</li>
+            <li>Corrections</li>
         </ul>
       </section>
 
       <section>
           <h3>OPINION</h3>
         <ul>
-          <li></li>
+          <li>Today's Opinion</li>
+          <li>Op-ed Columnists</li>
+          <li>Editorials</li>
+          <li>Op-ed Contributors</li>
+          <li>Letters</li>
+          <li>Sunday Review</li>
+          <li>Video: Opinion</li>
         </ul>
       </section>
 
       <section>
           <h3>ARTS</h3>
         <ul>
-          <li></li>
+          <li>Today's Arts</li>
+          <li>Art & Design</li>
+          <li>Books</li>
+          <li>Dance</li>
+          <li>Movies</li>
+          <li>Music</li>
+          <li>Pop Culture</li>
+          <li>Television</li>
+          <li>Theater</li>
+          <li>Video: Arts</li>
         </ul>
       </section>
 
@@ -244,7 +322,7 @@
     </section>
   </section>
 
-  <footer>
+  <!-- The Very Bottom Footer -->
     <!--Has the very tiny menu in gray-->
     this is a footer
   </footer>
