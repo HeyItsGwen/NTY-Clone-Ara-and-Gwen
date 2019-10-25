@@ -29,7 +29,7 @@
   <main>
     <!-- HEADER IMAGE ALAN GUTH INTRO SECTION -->
     <header>
-      <div><h1><div id="titleText">Space Ripples Reveal Big Bang’s Smoking Gun</div></h1></div>
+      <div><h1><span id="titleText">Space Ripples Reveal Big Bang’s Smoking Gun</span></h1></div>
         <banner>
           <figure id='guthFigure'>
             <img src="images/alanGuth.png" id="alanGuth" alt="Alan Guth Posing with Telescope The New York Times">
@@ -249,9 +249,9 @@
       </li>  
     </ul>
 
-    <div>
-      <h4>Access more of The Times for free each month with an account.</h4>
-      <button>Create a free account</button>
+    <div id='accessMore'>
+      <h4 id='accessHeader'>Access more of The Times for free each month with an account.</h4>
+      <button id='createButton'>Create a free account</button>
       <h5>Already have an acount? <a href="#">Log in</a></h5>
     </div>
   </div>
@@ -260,12 +260,12 @@
 <!-- FOOTER SECTION WITH LOGO AND BOTTOM NAV MENU -->
   <footer>
   <section id="bottomNav">
-    <header>
-      <!--logo
-      Go to Home Page>>-->
+    <header id='bottomHeader'>
+      <img src='images/nytLogo.png' id='bottomLogo'>
+      <a href='#'>Go to Home Page</a>
     </header>
 
-    <section>
+    <section id='footerLists'>
       <section>
         <h3>NEWS</h3>
         <ul>
@@ -352,15 +352,15 @@
         </ul>
       </section>
 
-      <section>
+      <section id='subscribeList'>
         <h3>SUBSCRIBE</h3>
         <ul>
-          <li><a></a><img src=''>Home Delivery</a></li>
-          <li><a></a><img src=''>Digital Subscriptions</a></li>
-          <li><a></a><img src=''>Crossword</a></li>
-          <li><a></a><img src=''>Cooking</a></li>
+          <li><a class='subscribeListIcon'><img src='images/paperIcon.JPG'>Home Delivery</a></li>
+          <li><a class='subscribeListIcon'><img src='images/timesIcon.JPG'>Digital Subscriptions</a></li>
+          <li><a class='subscribeListIcon'><img src='images/crossroadIcon.JPG'>Crossword</a></li>
+          <li><a class='subscribeListIcon'><img src='images/eatingIcon.JPG'>Cooking</a></li>
         </ul>
-        <ul>
+        <ul id='secondSmallerList'>
           <li><a>Email Newsletters</a></li>
           <li><a>Corporate Subscriptions</a></li>
           <li><a>Education Rate</a></li>
