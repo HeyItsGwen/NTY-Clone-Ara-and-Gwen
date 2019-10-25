@@ -38,7 +38,9 @@ nav {
   text-decoration: none;
 }
 
-#navDiv, #navUl, #subscribeLogIn {
+#navDiv,
+#navUl, 
+#subscribeLogIn {
   display: flex;
   flex-direction: row;
   position: relative;
@@ -280,7 +282,7 @@ main {
 
 /* SMALL PRINT AFTER ARTICLE */
 .bottomInfo p, .bottomInfo a {
-  font-size: .7rem;
+  font-size: 0.7rem;
   color: #666;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -310,7 +312,7 @@ main {
 /* READ MORE FROM SCIENCE ASIDE */
 
 footer h3 {
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 #readMore h3 {
@@ -419,7 +421,7 @@ footer h3 {
   position: relative;
   top: 28px;
   color: rgb(86, 123, 149);
-  font-size: .8em;
+  font-size: 0.8em;
   text-decoration: none;
 }
 
@@ -434,7 +436,7 @@ footer {
   top: 120px;
   max-width: 1200px;
   margin: auto;
-  font-size: .9em;
+  font-size: 0.9em;
   margin-bottom: 500px;
 }
 
@@ -489,7 +491,7 @@ footer {
   position: relative;
   top: 345px;
   text-align: center;
-  font-size: .8em;
+  font-size: 0.8em;
   line-height: 2em;
 }
 
