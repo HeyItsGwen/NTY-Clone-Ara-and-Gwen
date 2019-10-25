@@ -65,7 +65,7 @@ nav {
   height: 30px;
   vertical-align: middle;
   color: white;
-  background-color: #333333;
+  background-color: #333;
   border-radius: 2px;
   border: 1px solid #202020;
 }
@@ -79,7 +79,7 @@ nav {
 #subscribeLogIn a {
   margin-top: -10px;
   margin-right: 15px;
-  color: #333333;
+  color: #333;
 }
 
 /* HEADER */
@@ -223,12 +223,12 @@ main {
   font-size: 14px;
 }
 
-.bicep2{
+.bicep2 {
   max-width: 600px;
   width: 100%;
 }
 
-.bicepImage{
+.bicepImage {
   width: 100%;
 }
 
@@ -242,10 +242,9 @@ main {
   margin-right: 10px;
 }
 
-#img3, #img4, #img7, #img8  {
+#img3, #img4, #img7, #img8 {
   margin-left: 10px;
 }
-
 
 #bottomInflationText {
   display: flex;
@@ -284,7 +283,7 @@ main {
 /* SMALL PRINT AFTER ARTICLE */
 .bottomInfo p, .bottomInfo a {
   font-size: .7rem;
-  color: #666666;
+  color: #666;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -312,6 +311,10 @@ main {
 
 /* READ MORE FROM SCIENCE ASIDE */
 
+footer h3 {
+  font-size: .8em;
+}
+
 #readMore h3 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -324,7 +327,7 @@ main {
   display: flex;
   padding: 0 10px;
   margin: auto;
-  border-bottom: 1px solid #dcdcdc; 
+  border-bottom: 1px solid #dcdcdc;
 }
 
 #insideReadMore li {
@@ -354,7 +357,7 @@ main {
   text-align: end;
   font-size: 0.6em;
   line-height: 1.23em;
-  color: #999999;
+  color: #999;
 }
 
 #readMore h2 {
@@ -379,7 +382,7 @@ main {
   text-align: center;
   margin: auto;
   margin-top: 70px;
-  color: #333333;
+  color: #333;
   border-bottom-style: double;
   border-bottom-color: #e2e2e2;
   padding-bottom: 55px;
@@ -393,8 +396,8 @@ main {
   width: 240px;
   height: 40px;
   border-radius: 5px;
-  background-color: #333333;
-  border: 1px solid #333333;
+  background-color: #333;
+  border: 1px solid #333;
   color: white;
   font-weight: bold;
 }
@@ -435,10 +438,6 @@ footer {
   margin: auto;
   font-size: .9em;
   margin-bottom: 500px;
-}
-
-footer h3 { 
-  font-size: .8em;
 }
 
 #footerLists {
