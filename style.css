@@ -125,6 +125,11 @@ main {
   margin-top: 50px;
 }
 
+.article {
+  font-size: 1.3rem;
+  line-height: 1.875rem;
+}
+
 #author, .article, #dateIcons {
   width: 600px;
   margin: auto;
@@ -225,14 +230,105 @@ main {
 }
 
 #inflationAuthors {
+  font-family: Arial, Helvetica, sans-serif;
   position: relative;
-  top: 270px;
+  top: 260px;
+}
+
+#inflationAuthors::before {
+  width: 60px;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  background-color: black;
+  margin: 0 0 5px;
 }
 
 #afterInflation {
   position: relative;
   top: 300px;
 }
+
+/* SMALL PRINT AFTER ARTICLE */
+.bottomInfo p, .bottomInfo a {
+  font-size: .7rem;
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottomInfo a {
+  font-weight: 700;
+}
+
+/* READ COMMENTS SECTION */
+#readButton {
+  width: 330px;
+  height: 36px;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #567b95;
+  color: white;
+  border: 1px solid #326891;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-right: 30px;
+  position: relative;
+  top: 17px;
+}
+
+/* READ MORE FROM SCIENCE ASIDE */
+
+#readMore h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#insideReadMore {
+  width: 1200px;
+  display: flex;
+  padding: 0 10px;
+  margin: auto;
+}
+
+#insideReadMore li {
+  list-style-type: none;
+  max-width: 385px;
+  height: 537px;
+  padding: 0 10px;
+}
+
+#insideReadMore li figure {
+  max-width: 380px;
+  margin: auto;
+}
+
+#insideReadMore li figure img {
+  max-width: 380px;
+  width: 100%;
+}
+
+#item2 {
+  border-left: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  max-width: 380px;
+}
+
+.photographerInfo {
+  text-align: end;
+  font-size: 0.6em;
+  line-height: 1.23em;
+  color: #999999;
+}
+
+.summary {
+  color: rgb(85, 85, 85);
+  font-size: 1rem;
+}
+
+
 
 /* FOOTER */
 

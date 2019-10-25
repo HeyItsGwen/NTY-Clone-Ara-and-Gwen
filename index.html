@@ -4,6 +4,7 @@
 <head>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>The New York Times Article MIRCROVERSE</title>
   <link rel='stylesheet' href='style.css' type='text/css'>
 </head>
 
@@ -19,7 +20,7 @@
         </ul>
         <img id='navLogo' src='images/nytLogo.png' alt="The New York Times Post Logo">
         <div id='subscribeLogIn'>
-          <a href='https://www.nytimes.com/' targe='_blank'><p>Subscribe for full access</p></a>
+          <a href='https://www.nytimes.com/' target='_blank'><p>Subscribe for full access</p></a>
           <button id='navLogIn'>Log in</button>
         </div>
     </div>
@@ -48,12 +49,12 @@
           <div id="dateIcons">
             <p id="date">March 17, 2014</p>
             <ul id="topIconList">  
-              <li><img src="images/fb24.png" class="topIcons" alt="Facebook Icon The New York Times"></li>
-              <li><img src="images/twitter24.png" class="topIcons" alt="Twitter Icon The New York Times"></li>
-              <li><img src="images/mail24.png" class="topIcons" alt="Mail Icon The New York Times"></li>
-              <li><img src="images/share24.png" class="topIcons" alt="Share Icon The New York Times"></li>
-              <li><img src="images/bookmarkOutline24.png" class="topIcons" alt="Bookmark Outline Icon The New York Times"></li>
-              <li><img src="images/commentOutline24.png" class="topIcons" alt="Comments Outline Icon The New York Times"></li>
+              <li><a href="https://wwww.facebook.com"><img src="images/fb24.png" class="topIcons" alt="Facebook Icon The New York Times"></a></li>
+              <li><a href="https://www.twitter.com"><img src="images/twitter24.png" class="topIcons" alt="Twitter Icon The New York Times"></a></li>
+              <li><a href="#"><img src="images/mail24.png" class="topIcons" alt="Mail Icon The New York Times"></a></li>
+              <li><a href="#"><img src="images/share24.png" class="topIcons" alt="Share Icon The New York Times"></a></li>
+              <li><a href="#"><img src="images/bookmarkOutline24.png" class="topIcons" alt="Bookmark Outline Icon The New York Times"></a></li>
+              <li><a href="#"><img src="images/commentOutline24.png" class="topIcons" alt="Comments Outline Icon The New York Times"></a></li>
             </ul>
           </div>
         </div>
@@ -185,18 +186,16 @@
       <div id="afterInflation">
         <div class='article bottomInfo'>
           <p>
-              A version of this article appears in print on March 18, 2014, Section A, Page 1 of the National edition. Order Reprints | <a href="#">Today’s Paper</a> | <a href="#">Subscribe</a>
+              A version of this article appears in print on March 18, 2014, Section A, Page 1 of the National edition. <a href="#">Order Reprints</a> | <a href="#">Today’s Paper</a> | <a href="#">Subscribe</a>
           </p>
         </div>
         <div class="article" id="commentsIcons">
-            <button>READ 615 COMMENTS</button>
+            <button id="readButton">READ 615 COMMENTS</button>
             <ul id="bottomIconList">  
-              <li><img src="images/fb24.png" class="bottomIcons" alt="Facebook Icon The New York Times"></li>
-              <li><img src="images/twitter24.png" class="bottomIcons" alt="Twitter Icon The New York Times"></li>
-              <li><img src="images/mail24.png" class="bottomIcons" alt="Mail Icon The New York Times"></li>
-              <li><img src="images/share24.png" class="bottomIcons" alt="Share Icon The New York Times"></li>
-              <li><img src="images/bookmarkOutline24.png" class="bottomIcons" alt="Bookmark Outline Icon The New York Times"></li>
-              <li><img src="images/commentOutline24.png" class="bottomIcons" alt="Comments Outline Icon The New York Times"></li>
+              <li><a href="https://www.facebook.com/"><img src="images/fb24.png" class="bottomIcons" alt="Facebook Icon The New York Times"></a></li>
+              <li><a href="https://www.facebook.com/"><img src="images/twitter24.png" class="bottomIcons" alt="Twitter Icon The New York Times"></a></li>
+              <li><a href="#"><img src="images/mail24.png" class="bottomIcons" alt="Mail Icon The New York Times"></a></li>
+              <li><a href="#"><img src="images/share24.png" class="bottomIcons" alt="Share Icon The New York Times"></a></li>
             </ul>
           </div>
       </div>
@@ -204,40 +203,40 @@
 
     <!-- READ MORE ASIDE SECTION -->
   <div id='readMore' >
-    <h4>Read more from Science</h4>
-    <ul>
+    <h3>Read more from Science</h3>
+    <ul id="insideReadMore">
       <li id="item1">
         <figure>
           <img src="images/coloradoFossils.png" alt="Colorado Fossils New York Times">
-          <figcaption>HHMI Tangled Bank Studios</figcaption>
+          <figcaption class="photographerInfo">HHMI Tangled Bank Studios</figcaption>
         </figure>
 
         <h2>Colorado Fossils Show How Mammals Raced to Fill Dinosaur's Void</h2>
-        <p id="summary">An unusually rich trove found in Colorado reveals the world in which our mammalian forebears evolved into larger creatures.</p>
-        <span id="author">Nicholas St. Fleur</span>
-        <p id="time">Oct.24</p>
+        <p class="summary">An unusually rich trove found in Colorado reveals the world in which our mammalian forebears evolved into larger creatures.</p>
+        <span class="author">Nicholas St. Fleur</span>
+        <p class="time">Oct.24</p>
 
       <li id="item2">
         <figure>
             <img src="images/liveWithFire.png" alt="Learn to Live with Fire New York Times">
-            <figcaption>Josh Edelson/Agence France-Presse-Getty Images</figcaption>
+            <figcaption class="photographerInfo">Josh Edelson/Agence France-Presse-Getty Images</figcaption>
         </figure>
 
         <h2>A Forecast for a Warming World: Learn to Live With Fire</h2>
-        <p id="summary">The Kincade fires is burning more than 10,000 acres in California. Other areas of the country are experiencing drought so understanding fire is becoming ever more important.</p>
-        <span id="author">Thomas Fuller and Kendra Pierre-Louis</span>
-        <p id="time">Oct.24</p>
+        <p class="summary">The Kincade fires is burning more than 10,000 acres in California. Other areas of the country are experiencing drought so understanding fire is becoming ever more important.</p>
+        <span class="author">Thomas Fuller and Kendra Pierre-Louis</span>
+        <p class="time">Oct.24</p>
 
       <li id="item3">
         <figure>
           <img src="images/antZombies.png" alt="Zombie Ants New York Times">
-          <figcaption>João Araújo</figcaption>
+          <figcaption class="photographerInfo">João Araújo</figcaption>
         </figure>
 
         <h2>After This Fungus Turns Ants Into Zombies, Their Bodies Explode</h2>
-        <p id="summary">The life cycle of Ophiocordyceps is like something from a sci-fi movie: "You think, where the hell did that come from?"</p>
-        <span id="author">Carl Zimmer</span>
-        <p id="time">Oct.24</p>
+        <p class="summary">The life cycle of Ophiocordyceps is like something from a sci-fi movie: "You think, where the hell did that come from?"</p>
+        <span class="author">Carl Zimmer</span>
+        <p class="time">Oct.24</p>
     </ul>
 
     <div>
@@ -246,10 +245,10 @@
       <h5>Already have an acount? <a href="#">Log in</a></h5>
     </div>
   </div>
-</main>
+  </main>
 
 <!-- FOOTER SECTION WITH LOGO AND BOTTOM NAV MENU -->
-<footer>
+  <footer>
   <section id="bottomNav">
     <header>
       <!--logo
@@ -384,7 +383,5 @@
       <a href='#'>Subscriptions</a>
     </div>
   </footer>
-
 </body>
-
 </html>
