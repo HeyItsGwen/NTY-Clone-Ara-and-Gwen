@@ -8,6 +8,7 @@ body {
 }
 
 /* NAV BAR */
+
 nav {
   position: fixed;
   top: 0px;
@@ -55,7 +56,7 @@ nav {
   left: 40%;
 }
 
-#subscribeLogIn button{
+#subscribeLogIn button {
   height: 30px;
   vertical-align: middle;
   color: white;
@@ -64,19 +65,20 @@ nav {
   border: 1px solid #202020;
 }
 
-#subscribeLogIn{
+#subscribeLogIn {
   position: absolute;
   top: 5px;
   right: 25px;
 }
 
-#subscribeLogIn a{
+#subscribeLogIn a {
   margin-top: -10px;
   margin-right: 15px;
   color: #333333;
 }
 
 /* HEADER */
+
 header div {
   width: 100%;
 }
@@ -93,6 +95,7 @@ header div h1 {
 }
 
 /* BODY */
+
 main {
   position: relative;
   top: 85px;
@@ -118,7 +121,7 @@ main {
   font-size: .9em;
 }
 
-#articleInfo{
+#articleInfo {
   margin-top: 50px;
 }
 
@@ -141,38 +144,39 @@ main {
   justify-content: space-between;
 }
 
-#date{
+#date {
   position: relative;
   left: -150px;
 }
 
 /* ARTICLE */
 
-#youtubeFigure{
+#youtubeFigure {
   width: 600px;
   margin: auto;
 }
 
-#stanfordVideo{
+#stanfordVideo {
   border: 1px solid black;
   margin: auto;
 }
 
-.bottomInfo{
+.bottomInfo {
   margin-top: 50px;
 }
 
-#readMore{
+#readMore {
   position: relative;
   top: 350px;
 }
 
-#bottomNav{
+#bottomNav {
   position: relative;
   top: 300px;
 }
 
 /* THE THEORY OF INFLATION */
+
 #inflationHeaderImageText {
   width: 945px;
   margin: auto;
@@ -230,16 +234,14 @@ main {
   top: 300px;
 }
 
-
-
-
 /* FOOTER */
+
 footer {
   position: relative;
   top: 120px;
 }
 
-#footerText{
+#footerText {
   position: relative;
   top: 315px;
   text-align: center;
