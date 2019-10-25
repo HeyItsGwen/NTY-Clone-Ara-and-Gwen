@@ -172,8 +172,21 @@ main {
   top: 100px;
 }
 
+/* FOOTER */
 footer{
   position: relative;
   top: 120px;
 }
-/* FOOTER */
+
+#footerText{
+  position: relative;
+  top: 120px;
+  text-align: center;
+  font-size: .8em;
+}
+
+#footerText a{
+  margin: 0 2% 0 2%;
+  color: #999;
+  text-decoration: none;
+}
