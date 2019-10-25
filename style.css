@@ -116,15 +116,16 @@ main {
   margin: auto;
 }
 
-#guthFigure figcaption {
+.imgCaptionAll {
   width: 70%;
   color: #666;
   margin-top: 10px;
+  font-size: 0.85em;
 }
 
-#rickF {
+.figureBy {
   color: #888;
-  font-size: .9em;
+  font-size: 0.75em;
 }
 
 #articleInfo {
@@ -272,10 +273,12 @@ main {
   margin: 0 0 5px;
 }
 
-#afterInflation {
+.afterInflation {
   position: relative;
   top: 300px;
 }
+
+/* YOUTUBE IFRAME CAPTION AND VIDEO*/
 
 /* SMALL PRINT AFTER ARTICLE */
 .bottomInfo p, .bottomInfo a {
@@ -377,7 +380,6 @@ main {
   margin-top: 70px;
   color: #333333;
   border-bottom-style: double;
-  border-bottom-width: 100%;
   border-bottom-color: #e2e2e2;
   padding-bottom: 55px;
 }
@@ -449,7 +451,7 @@ footer h3 {
  
 #footerLists h3 {
   margin-bottom: 5px;
-  font-weight: 750;
+  font-weight: 700;
 }
 
 #footerLists ul {

@@ -33,12 +33,12 @@
         <div>
           <figure id='guthFigure'>
             <img src="images/alanGuth.png" id="alanGuth" alt="Alan Guth Posing with Telescope The New York Times">
-            <figcaption>
+            <figcaption class="imgCaptionAll">
               <div id="alanGuthText">Alan Guth was one of the first physicists to 
               hypothesize the existence of inflation, which explains 
               how the universe expanded so uniformly and so quickly in
                the instant after the Big Bang 13.8 billion years ago.</div>
-               <div id="rickF">Rick Friedman for The New York Times</div>
+               <div class="figureBy">Rick Friedman for The New York Times</div>
             </figcaption>
           </figure>     
         </div>
@@ -62,6 +62,7 @@
     </header>
 
     <article>
+      <h2 class="hide">This is a hidden Header</h2>
       <!-- BEGINING OF ARTICLE -->
       <section class='article'>
         <h2 class="hide">This is a hidden Header</h2>
@@ -115,7 +116,7 @@
         </div>
       </section>
 
-      <section class='article' id="afterInflation">
+      <section class='article afterInflation'>
         <h2 class="hide">This is a hidden Header</h2>
         <p>Dr. Kovac said the chance that the results were a fluke was only one in 10 million.</p>
         <p>Dr. Guth, now 67, pronounced himself “bowled over,” saying he had not expected such a definite confirmation in his lifetime.</p>
@@ -126,13 +127,15 @@
 
       </section>
 
-      <section class='article' id="afterInflation">
+      <section class='article afterInflation'>
         <h2 class="hide">This is a hidden Header</h2>
         <!-- YOUTUBE VIDEO INSERT -->
         <figure id='youtubeFigure'>
             <iframe id='stanfordVideo' width="600" height="340" src="https://www.youtube.com/embed/ZlfIVEy_YOA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <figcaption>Stanford Professor Andrei Linde celebrates physics breakthrough</figcaption>
-          <figcaption>Video by StanfordUniversity</figcaption>
+          <figcaption class="imgCaptionAll">
+            Stanford Professor Andrei Linde celebrates physics breakthrough  
+            <div class="figureBy">Video by StanfordUniversity</div>
+          </figcaption>
         </figure>
         
         <p>Confused, Dr. Linde called out to his wife, asking if she had ordered anything.</p>
@@ -154,12 +157,10 @@
 
         <figure class="article bicep2">
           <img class='bicepImage' src="images/bicep2Telescope.png" alt="The Bicep 2 Telescope The New York Times">
-          <figcaption>
-              The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.
-          </figcaption>
-          <figcaption>
-              Steffen Richter/Associated Press
-          </figcaption>
+          <figcaption class="imgCaptionAll">
+              The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth. 
+              <div class="figureBy">Steffen Richter/Associated Press</div>
+            </figcaption>
         </figure>
                   
         <p>In 2002, he was part of a team that discovered that the microwave radiation was polarized, meaning the light waves had a slight preference to vibrate in one direction rather than another.</p>
@@ -186,7 +187,7 @@
       </section>
 
       <!-- END OF ARTICLE SM ICONS READ COMMENTS ICON-->
-      <div id="afterInflation">
+      <div class="afterInflation">
         <div class='article bottomInfo'>
           <p>
               A version of this article appears in print on March 18, 2014, Section A, Page 1 of the National edition. <a href="#">Order Reprints</a> | <a href="#">Today’s Paper</a> | <a href="#">Subscribe</a>
@@ -219,7 +220,7 @@
         
         <div class="authTime">
           <p class="author">Nicholas St. Fleur</p>
-          <p class="time">&nbsp· Oct.24</p>
+          <p class="time">&nbsp;· Oct.24</p>
         </div>
       </li>  
 
@@ -233,7 +234,7 @@
         <p class="summary">The Kincade fires is burning more than 10,000 acres in California. Other areas of the country are experiencing drought so understanding fire is becoming ever more important.</p>
         <div class="authTime">
           <p class="author">Thomas Fuller and Kendra Pierre-Louis</p>
-          <p class="time">&nbsp· Oct.24</p>
+          <p class="time">&nbsp;· Oct.24</p>
         </div>
       </li>  
 
@@ -247,7 +248,7 @@
           <p class="summary">The life cycle of Ophiocordyceps is like something from a sci-fi movie: "You think, where the hell did that come from?"</p>
           <div class="authTime">  
             <p class="author">Carl Zimmer</p>
-            <p class="time">&nbsp· Oct.24</p>
+            <p class="time">&nbsp;· Oct.24</p>
         </div>
       </li>  
     </ul>
@@ -264,10 +265,10 @@
   <footer>
   <section id="bottomNav">
     <h2 class="hide">This is a hidden Header</h2>
-    <header id='bottomHeader'>
-      <img src='images/nytLogo.png' id='bottomLogo'>
+    <div id='bottomHeader'>
+      <img src='images/nytLogo.png' id='bottomLogo' alt="The New York Times Bottom of The Page Logo">
       <a href='#'>Go to Home Page</a>
-    </header>
+    </div>
 
     <section id='footerLists'>
       <h2 class="hide">This is a hidden Header</h2>
@@ -360,10 +361,10 @@
       <section id='subscribeList'>
         <h3>SUBSCRIBE</h3>
         <ul>
-          <li><a class='subscribeListIcon'><img src='images/paperIcon.JPG'>Home Delivery</a></li>
-          <li><a class='subscribeListIcon'><img src='images/timesIcon.JPG'>Digital Subscriptions</a></li>
-          <li><a class='subscribeListIcon'><img src='images/crossroadIcon.JPG'>Crossword</a></li>
-          <li><a class='subscribeListIcon'><img src='images/eatingIcon.JPG'>Cooking</a></li>
+          <li><a class='subscribeListIcon'><img src='images/paperIcon.JPG' alt="Home Delivery Icon The New York Times">Home Delivery</a></li>
+          <li><a class='subscribeListIcon'><img src='images/timesIcon.JPG' alt="Digital Subscriptions Icon The New York Times">Digital Subscriptions</a></li>
+          <li><a class='subscribeListIcon'><img src='images/crossroadIcon.JPG' alt="Crossword Icon The New York Times">Crossword</a></li>
+          <li><a class='subscribeListIcon'><img src='images/eatingIcon.JPG' alt="Cooking Icon The New York Times">Cooking</a></li>
         </ul>
         <ul id='secondSmallerList'>
           <li><a>Email Newsletters</a></li>
