@@ -146,11 +146,20 @@ main {
   left: -150px;
 }
 
-
-
-
-
-
 /* ARTICLE */
 
+#readMore{
+  position: relative;
+  top: 100px;
+}
+
+#bottomNav{
+  position: relative;
+  top: 100px;
+}
+
+footer{
+  position: relative;
+  top: 120px;
+}
 /* FOOTER */
