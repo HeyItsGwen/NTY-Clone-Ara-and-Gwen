@@ -34,12 +34,17 @@ nav {
   font-weight: bold;
 }
 
+
+.bottomInfo a {
+  font-weight: 700;
+}
+
 #navGenre a {
   text-decoration: none;
 }
 
 #navDiv,
-#navUl, 
+#navUl,
 #subscribeLogIn {
   display: flex;
   flex-direction: row;
@@ -140,12 +145,15 @@ main {
   line-height: 1.875rem;
 }
 
-#author, .article, #dateIcons {
+#author,
+.article,
+#dateIcons {
   max-width: 600px;
   margin: auto;
 }
 
-#dateIcons, #commentsIcons {
+#dateIcons,
+#commentsIcons {
   display: flex;
   padding-left: 0;
   justify-content: flex-end;
@@ -159,7 +167,8 @@ main {
   justify-content: space-between;
 }
 
-.topIcons, .bottomIcons {
+.topIcons,
+.bottomIcons {
   border-radius: 100%;
   border: 1px #eee solid;
   background-color: #eee;
@@ -168,7 +177,8 @@ main {
   top: -5px;
 }
 
-.topIcons:hover, .bottomIcons:hover {
+.topIcons:hover,
+.bottomIcons:hover {
   background-color: white;
 }
 
@@ -238,11 +248,17 @@ main {
   top: 130px;
 }
 
-#img1, #img2, #img5, #img6 {
+#img1,
+#img2,
+#img5,
+#img6 {
   margin-right: 10px;
 }
 
-#img3, #img4, #img7, #img8 {
+#img3,
+#img4,
+#img7,
+#img8 {
   margin-left: 10px;
 }
 
@@ -281,14 +297,11 @@ main {
 /* YOUTUBE IFRAME CAPTION AND VIDEO */
 
 /* SMALL PRINT AFTER ARTICLE */
-.bottomInfo p, .bottomInfo a {
+.bottomInfo p,
+.bottomInfo a {
   font-size: 0.7rem;
   color: #666;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.bottomInfo a {
-  font-weight: 700;
 }
 
 /* READ COMMENTS SECTION */
@@ -495,12 +508,12 @@ footer {
   line-height: 2em;
 }
 
-#footerText a:hover {
-  text-decoration: underline;
-}
-
 #footerText a {
   margin: 0 2% 0 2%;
   color: #999;
   text-decoration: none;
+}
+
+#footerText a:hover {
+  text-decoration: underline;
 }
