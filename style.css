@@ -148,6 +148,20 @@ main {
 
 /* ARTICLE */
 
+#youtubeFigure{
+  width: 600px;
+  margin: auto;
+}
+
+#stanfordVideo{
+  border: 1px solid black;
+  margin: auto;
+}
+
+.bottomInfo{
+  margin-top: 50px;
+}
+
 #readMore{
   position: relative;
   top: 100px;
