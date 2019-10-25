@@ -7,6 +7,10 @@ body {
   font-family: 'Times New Roman', Times, serif
 }
 
+.hide {
+  position: absolute;
+  visibility: hidden;
+}
 /* NAV BAR */
 
 nav {
