@@ -164,23 +164,84 @@ main {
 
 #readMore{
   position: relative;
-  top: 100px;
+  top: 350px;
 }
 
 #bottomNav{
   position: relative;
-  top: 100px;
+  top: 300px;
 }
 
+/* THE THEORY OF INFLATION */
+#inflationHeaderImageText {
+  width: 945px;
+  margin: auto;
+}
+
+#theoryOfInflation {
+  width: 945px;
+  height: auto; /* keeps ratio*/
+  position: absolute;
+}
+
+.imgText {
+  width: 228px;
+  /* height: 120px; */
+  /* margin: 8px; */
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-wrap: break-word;
+  font-size: 14px;
+}
+
+#topInflationText {
+  display: flex;
+  position: relative;
+  top: 130px;
+}
+
+#img1, #img2, #img5, #img6 {
+  margin-right: 10px;
+}
+
+#img3, #img4, #img7, #img8  {
+  margin-left: 10px;
+}
+
+
+#bottomInflationText {
+  display: flex;
+  position: relative;
+  top: 242px;
+}
+
+.bold {
+  font-weight: bolder;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+#inflationAuthors {
+  position: relative;
+  top: 270px;
+}
+
+#afterInflation {
+  position: relative;
+  top: 300px;
+}
+
+
+
+
 /* FOOTER */
-footer{
+footer {
   position: relative;
   top: 120px;
 }
 
 #footerText{
   position: relative;
-  top: 120px;
+  top: 315px;
   text-align: center;
   font-size: .8em;
 }
