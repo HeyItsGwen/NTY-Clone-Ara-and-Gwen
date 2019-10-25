@@ -151,6 +151,19 @@ main {
   justify-content: space-between;
 }
 
+.topIcons, .bottomIcons {
+  border-radius: 100%;
+  border: 1px #eee solid;
+  background-color: #eee;
+  padding: 3px;
+  position: relative;
+  top: -5px;
+}
+
+.topIcons:hover, .bottomIcons:hover {
+  background-color: white;
+}
+
 #date {
   margin-right: 255px;
 }
