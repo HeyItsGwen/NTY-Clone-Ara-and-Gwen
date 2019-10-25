@@ -102,10 +102,13 @@ main {
 
 #alanGuth {
   margin: auto;
+  max-width: 1200px;
+  width: 100%;
 }
 
 #guthFigure {
-  width: 1134px;
+  max-width: 1200px;
+  width: 100%;
   margin: auto;
 }
 
@@ -199,6 +202,15 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   overflow-wrap: break-word;
   font-size: 14px;
+}
+
+.bicep2{
+  max-width: 600px;
+  width: 100%;
+}
+
+.bicepImage{
+  width: 100%;
 }
 
 #topInflationText {
