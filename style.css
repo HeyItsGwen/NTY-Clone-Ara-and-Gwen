@@ -46,25 +46,22 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#navGenre a {
-  text-decoration: none;
+button:hover {
+  cursor: pointer;
 }
 
-#navDiv,
-#navUl,
-#subscribeLogIn {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  z-index: 5;
-  margin: auto;
+#navGenre a {
+  text-decoration: none;
 }
 
 #navUl {
   list-style-type: none;
   position: absolute;
   left: -30px;
-  top: 13px;
+}
+
+#navUl li{
+  float: left;
 }
 
 #navLogo {
@@ -73,6 +70,22 @@ nav {
   margin-bottom: 10px;
   top: -5px;
   left: 40%;
+}
+
+#subscribeLogIn ul {
+  position: relative;
+  top: -15px;
+}
+
+#subscribeLogIn li {
+  float: left;
+  list-style: none;
+}
+
+#subscribeLogIn li a {
+  position: relative;
+  top: -10px;
+  left: -16px;
 }
 
 #subscribeLogIn button {
@@ -218,7 +231,9 @@ main {
 
 #bottomNav {
   position: relative;
-  top: 300px;
+  top: 420px;
+  border-top-style: double;
+  border-top-color: #e2e2e2;
 }
 
 /* THE THEORY OF INFLATION */
@@ -341,6 +356,14 @@ footer h3 {
   border-bottom: 1px solid #dcdcdc;
 }
 
+#insideReadMore a {
+  text-decoration: none;
+}
+
+#insideReadMore a:hover {
+  background-color: #e6e6e6;
+}
+
 #insideReadMore li {
   list-style-type: none;
   max-width: 385px;
@@ -394,8 +417,6 @@ footer h3 {
   margin: auto;
   margin-top: 70px;
   color: #333;
-  border-bottom-style: double;
-  border-bottom-color: #e2e2e2;
   padding-bottom: 55px;
 }
 
@@ -426,9 +447,11 @@ footer h3 {
 #bottomHeader {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  top: -16px;
 }
 
-#bottomHeader a {
+#goHome {
   position: relative;
   top: 28px;
   color: rgb(86, 123, 149);
@@ -444,11 +467,10 @@ footer h3 {
 
 footer {
   position: relative;
-  top: 120px;
+  top: 465px;
   max-width: 1200px;
   margin: auto;
   font-size: 0.9em;
-  margin-bottom: 500px;
 }
 
 #footerLists {
@@ -500,7 +522,6 @@ footer {
 
 #footerText {
   position: relative;
-  top: 345px;
   text-align: center;
   font-size: 0.8em;
   line-height: 2em;
