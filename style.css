@@ -199,7 +199,12 @@ main {
 
 #iconsOnTop > li {
   float: left;
-  width: 40px;
+  width: 36px;
+}
+
+#iconsOnTop {
+  float: right;
+  width: 240px;
 }
 
 #topIconList,
@@ -207,6 +212,10 @@ main {
 #bottomIconList {
   list-style-type: none;
   padding-left: 0;
+}
+
+#topIconList {
+  float: right;
 }
 
 .topIcons,
@@ -226,6 +235,7 @@ main {
 
 #date {
   width: 102px;
+  float: left;
 }
 
 /* ARTICLE */
@@ -384,7 +394,7 @@ footer h3 {
   overflow: auto;
 }
 
-#insideReadMore a:hover {
+#insideReadMore li:hover {
   background-color: #e6e6e6;
 }
 
