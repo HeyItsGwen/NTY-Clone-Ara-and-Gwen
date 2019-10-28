@@ -21,6 +21,10 @@ The technologies we used were Github, VSCode, HTML/CSS, Stickler, and Styleint.
 
 We used the refences from the ODIN PROJECT website for technical information, as well as W3 schools, the New York Times, and the mozilla docs for the same.
 
+<!--We used free icon packs downloaded from https://www.iconfinder.com/ for the images in our project page.-->
+We also used the refences from the ODIN PROJECT website for technical information, as well as W3 school and the mozilla docs for the same.
+
+
 ## About us
 
 OUR GITHUB PROFILES
