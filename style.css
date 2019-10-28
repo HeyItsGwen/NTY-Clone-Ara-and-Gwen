@@ -177,6 +177,7 @@ main {
 .article {
   font-size: 1.3rem;
   line-height: 1.875rem;
+  clear: both;
 }
 
 #author,
@@ -239,9 +240,6 @@ main {
 }
 
 /* ARTICLE */
-.article {
-  clear: both;
-}
 
 #youtubeFigure {
   max-width: 600px;
@@ -394,10 +392,6 @@ footer h3 {
   overflow: auto;
 }
 
-#insideReadMore li:hover {
-  background-color: #e6e6e6;
-}
-
 #insideReadMore li {
   list-style-type: none;
   width: 30%;
@@ -406,9 +400,21 @@ footer h3 {
   float: left;
 }
 
+#footerLists li {
+  margin: 5px 0;
+}
+
+#insideReadMore li:hover {
+  background-color: #e6e6e6;
+}
+
 #insideReadMore li figure {
   max-width: 380px;
   margin: auto;
+}
+
+#bottomHeader a img {
+  float: left;
 }
 
 #insideReadMore li figure img {
@@ -481,10 +487,6 @@ footer h3 {
   top: -16px;
 }
 
-#bottomHeader a img {
-  float: left;
-}
-
 #goHome {
   position: relative;
   top: 28px;
@@ -532,10 +534,6 @@ footer {
   list-style-type: none;
   padding-left: 0;
   margin-top: 0;
-}
-
-#footerLists li {
-  margin: 5px 0;
 }
 
 #footerLists li:hover {
