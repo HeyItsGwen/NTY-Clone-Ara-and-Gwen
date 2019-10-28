@@ -259,6 +259,8 @@ main {
   top: 420px;
   border-top-style: double;
   border-top-color: #e2e2e2;
+  width: 80%;
+  margin: auto;
 }
 
 /* THE THEORY OF INFLATION */
@@ -491,7 +493,7 @@ footer h3 {
 footer {
   position: relative;
   top: 465px;
-  max-width: 1200px;
+  width: 100%;
   margin: auto;
   font-size: 0.9em;
 }
@@ -508,6 +510,7 @@ footer {
 
 #footerLists section {
   float: left;
+  margin: 0 3%;
 }
 
 #footerLists h3 {
@@ -554,8 +557,27 @@ footer {
   font-size: 0.8em;
   line-height: 2em;
   clear: both;
+  margin-bottom: 540px;
 }
 
 #footerText a:hover {
   text-decoration: underline;
+}
+
+#stickyFooter {
+  text-align: center;
+  position: fixed;
+  bottom: -45px;
+  width: 100%;
+  border-top: 1px solid black;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#expand {
+  float: right;
+  position: relative;
+  top: -47px;
+  left: -300px;
+  font-weight: bold;
 }
