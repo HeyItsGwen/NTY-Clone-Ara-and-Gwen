@@ -186,26 +186,33 @@ main {
   margin: auto;
 }
 
-#dateIcons,
-#commentsIcons {
-  display: flex;
-  padding-left: 0;
-  justify-content: flex-end;
+#topIconList > li,
+#bottomIconList > li {
+  float: left;
+  width: 34px;
+}
+
+#iconsOnTop,
+#bottomIconList {
+  float: right;
+}
+
+#iconsOnTop > li {
+  float: left;
+  width: 40px;
 }
 
 #topIconList,
+#iconsOnTop,
 #bottomIconList {
-  display: flex;
   list-style-type: none;
   padding-left: 0;
-  width: 242px;
-  justify-content: space-between;
 }
 
 .topIcons,
 .bottomIcons {
   border-radius: 100%;
-  border: 1px #eee solid;
+  border: 1px rgb(56, 51, 51) solid;
   background-color: #eee;
   padding: 3px;
   position: relative;
@@ -218,10 +225,13 @@ main {
 }
 
 #date {
-  margin-right: 255px;
+  width: 102px;
 }
 
 /* ARTICLE */
+.article {
+  clear: both;
+}
 
 #youtubeFigure {
   max-width: 600px;
@@ -241,6 +251,7 @@ main {
 #readMore {
   position: relative;
   top: 350px;
+  clear: both;
 }
 
 #bottomNav {
@@ -264,10 +275,11 @@ main {
 }
 
 .imgText {
-  width: 228px;
+  width: 225px;
   font-family: Arial, Helvetica, sans-serif;
   overflow-wrap: break-word;
   font-size: 14px;
+  float: left;
 }
 
 .bicep2 {
@@ -280,7 +292,6 @@ main {
 }
 
 #topInflationText {
-  display: flex;
   position: relative;
   top: 130px;
 }
@@ -300,7 +311,6 @@ main {
 }
 
 #bottomInflationText {
-  display: flex;
   position: relative;
   top: 242px;
 }
@@ -364,10 +374,12 @@ footer h3 {
 #insideReadMore {
   max-width: 1200px;
   width: 100%;
-  display: flex;
   padding: 0 10px;
   margin: auto;
   border-bottom: 1px solid #dcdcdc;
+  position: relative;
+  left: 70px;
+  overflow: auto;
 }
 
 #insideReadMore a:hover {
@@ -376,9 +388,10 @@ footer h3 {
 
 #insideReadMore li {
   list-style-type: none;
-  max-width: 385px;
+  width: 30%;
   height: 537px;
   padding: 0 10px;
+  float: left;
 }
 
 #insideReadMore li figure {
@@ -414,8 +427,8 @@ footer h3 {
   font-size: 1rem;
 }
 
-.authTime {
-  display: flex;
+.authTime p {
+  float: left;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(85, 85, 85);
   font-size: inherit;
@@ -428,6 +441,7 @@ footer h3 {
   margin-top: 70px;
   color: #333;
   padding-bottom: 55px;
+  clear: both;
 }
 
 #accessHeader {
@@ -451,10 +465,12 @@ footer h3 {
 /* FOOTER */
 
 #bottomHeader {
-  display: flex;
-  justify-content: space-between;
   position: relative;
   top: -16px;
+}
+
+#bottomHeader a img {
+  float: left;
 }
 
 #goHome {
@@ -463,6 +479,7 @@ footer h3 {
   color: rgb(86, 123, 149);
   font-size: 0.8em;
   text-decoration: none;
+  float: right;
 }
 
 #bottomLogo {
@@ -480,12 +497,17 @@ footer {
 }
 
 #footerLists {
-  display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #dcdcdc;
   position: relative;
   top: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  overflow: auto;
+  clear: both;
+}
+
+#footerLists section {
+  float: left;
 }
 
 #footerLists h3 {
@@ -531,6 +553,7 @@ footer {
   text-align: center;
   font-size: 0.8em;
   line-height: 2em;
+  clear: both;
 }
 
 #footerText a:hover {
